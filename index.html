@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Soap</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="icon" href="/favicon/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 321px) and (max-width: 768px)"
+      href="media.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 100px) and (max-width: 320px)"
+      href="media2.css"
+    />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-top clearfix">
+        <div class="header-logo">
+          <a href="#"><img src="img/logo.svg" alt="Логотип" /> </a>
+        </div>
+        <button class="hamburger"></button>
+        <div class="mobile-menu">
+          <ul class="nav-menu">
+            <li><a href="#">Мыло</a></li>
+            <li>
+              <a href="#">Рубашки <img src="img/angle-down.svg"/></a>
+              <ul class="sub-menu">
+                <li><a href="#">Длинный рукав</a></li>
+                <li><a href="#">Короткий рукав</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Жир</a></li>
+          </ul>
+          <a class="tel" href="tel:+78009903443">8 800 990-34-43</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="picture">
+          <div class="gallery">
+            <ul>
+              <li><img class="picture-1" src="img/item-2-1.png" /></li>
+              <li><img class="picture-2" src="img/item-2-2.png" /></li>
+            </ul>
+          </div>
+          <div class="arrow">
+            <button class="left"></button>
+            <button class="right"></button>
+          </div>
+        </div>
+        <div class="main-menu">
+          <h1>Мыло FIGHT CLUB</h1>
+          <p>
+            Мыло розовое, душистое. Отличное качество (секретный ингредиент).
+          </p>
+          <h1>13 890 ₽</h1>
+          <div class="color">
+            <p>Цвет</p>
+            <button class="color-1 color-chosen"></button>
+            <button class="color-2"></button>
+            <button class="color-3"></button>
+          </div>
+          <button class="buy">
+            Заказать
+          </button>
+          <div class="describe-block">
+            <div class="description">
+              <div class="property-btn">
+                <button class="description-btn bold">Описание</button>
+                <button class="character-btn">Характеристики</button>
+              </div>
+              <div class="text-and-btn">
+                <div class="text-shadow">
+                  <p class="text-paragraph">
+                    Масло Макадамии смягчает, увлажняет, обладает
+                    антиоксидантными, антибактериальными, восстанавливающими
+                    свойствами, ускоряет заживление, снимает болевые ощущения в
+                    суставах. Натуральный ментол охладит и снимет усталость
+                    после долгой тренировки. Подойдет для всех.
+                  </p>
+                </div>
+                <a class="more">Показать больше ↓</a>
+              </div>
+            </div>
+            <div class="table block-hidden">
+              <table>
+                <tr>
+                  <td class="column-1">Артикул</td>
+                  <td class="column-2">H7S3N-9301</td>
+                </tr>
+                <tr>
+                  <td class="column-1">Материал</td>
+                  <td class="column-2">текстиль, резина</td>
+                </tr>
+                <tr>
+                  <td class="column-1">Страна</td>
+                  <td class="column-2">Индонезия</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span class="copyright"> © ООО «Соуп»</span>
+      <ul class="footer-menu">
+        <li><a href="#">Мыло</a></li>
+        <li><a href="#">Рубашки</a></li>
+        <li><a href="#">Жир</a></li>
+      </ul>
+      <form method="POST" class="subscribe">
+        Подписка на рассылку
+        <input
+          class="subscribe-form"
+          type="email"
+          placeholder="Ваш e-mail"
+          required
+        />
+        <input type="submit" class="subscribe-btn" />
+      </form>
+    </footer>
+    <script src="app.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>

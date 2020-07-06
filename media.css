@@ -1,0 +1,53 @@
+@media (min-width: 321px) and (max-width: 768px) {
+  body,
+  html {
+    width: 768px;
+    height: 941px;
+  }
+  .page-header,
+  .container,
+  footer {
+    margin: 42px 30px;
+    width: 696px;
+  }
+
+  .header-logo {
+    margin-right: 87px;
+  }
+
+  .nav-menu,
+  .tel {
+    margin-bottom: 5px;
+  }
+
+  .picture {
+    margin-right: 24px;
+  }
+
+  .picture img,
+  .gallery {
+    width: 342px;
+    height: 342px;
+  }
+
+  .main-menu,
+  .buy,
+  .describe-block {
+    margin-right: 30px;
+    width: 342px;
+  }
+
+  .open {
+    height: 270px;
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+
+  .subscribe {
+    margin-top: 20px;
+    margin-right: 90px;
+    line-height: 24px;
+  }
+}

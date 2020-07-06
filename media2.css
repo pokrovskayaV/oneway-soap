@@ -1,0 +1,124 @@
+@media (min-width: 100px) and (max-width: 320px) {
+  body,
+  html {
+    width: 320px;
+    height: 1449px;
+  }
+
+  .header-logo {
+    margin-right: 80px;
+  }
+
+  .hamburger {
+    float: right;
+    display: block;
+    margin-top: 7px;
+    margin-right: 20px;
+  }
+
+  .nav-menu,
+  .tel {
+    display: block;
+    float: left;
+  }
+
+  .nav-menu > li {
+    float: none;
+    text-align: center;
+    width: 177px;
+    padding: 17px 0;
+  }
+
+  .nav-menu > li:hover .sub-menu {
+    display: block;
+    position: relative;
+    margin-left: 35px;
+  }
+
+  .nav-menu {
+    padding: 40px 30px;
+    margin: 80px 20px;
+  }
+
+  .mobile-menu {
+    width: 285px;
+    height: 483px;
+    margin: 50px 30px 0 0;
+    border-top: 1px solid #d8d8d8;
+    display: none;
+  }
+
+  .block-visible {
+    display: block;
+  }
+
+  .tel {
+    margin-left: 56px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    margin: 0;
+    width: 295px;
+  }
+
+  .page-header,
+  .main-menu,
+  footer {
+    width: 295px;
+    margin: 25px 0 0 24px;
+  }
+
+  .picture {
+    margin-right: 0;
+  }
+
+  .picture img,
+  .gallery {
+    width: 320px;
+    height: 320px;
+  }
+
+  .main-menu {
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 272px;
+  }
+
+  .buy,
+  .describe-block {
+    width: 272px;
+  }
+
+  .open {
+    height: 330px;
+  }
+
+  .property-btn button {
+    margin-right: 32px;
+    padding: 0;
+  }
+
+  footer {
+    padding: 0;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+
+  .footer-menu {
+    padding-top: 24px;
+    margin: 0;
+  }
+
+  .subscribe {
+    float: left;
+    margin-top: 20px;
+  }
+
+  .subscribe-form {
+    margin-left: 0px;
+    margin-bottom: 14px;
+    padding-top: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+<svg width="556" height="555" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="557" width="558" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+  <desc transform="matrix(17.361109786563475,0,0,17.361109786563475,0,0) ">Created with Sketch.</desc>
+
+  <g id="svg_12">
+   <g transform="matrix(17.361109786563475,0,0,17.361109786563475,0,0) " fill-rule="evenodd" fill="none" id="svg_7">
+    <g fill="#F7A9F8" id="svg_8">
+     <g id="svg_9">
+      <rect fill="#84D3DB" height="32" width="32" y="-0.0448" x="0.0704" id="svg_10"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

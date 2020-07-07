@@ -11,10 +11,6 @@
     width: 696px;
   }
 
-  .header-logo {
-    margin-right: 87px;
-  }
-
   .nav-menu,
   .tel {
     margin-bottom: 5px;
@@ -24,7 +20,6 @@
     margin-right: 24px;
   }
 
-  .picture img,
   .gallery {
     width: 342px;
     height: 342px;

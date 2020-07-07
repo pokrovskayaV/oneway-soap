@@ -1,12 +1,3 @@
-let container = document.querySelector(".container");
-const count = 1;
-let width = 546;
-
-let list = container.querySelector("ul");
-let listElems = container.querySelectorAll("li");
-
-let position = 0;
-
 const btnColor1 = document.querySelector(".color-1");
 const btnColor2 = document.querySelector(".color-2");
 const btnColor3 = document.querySelector(".color-3");
@@ -15,43 +6,33 @@ let picture1 = document.querySelector(".picture-1");
 let picture2 = document.querySelector(".picture-2");
 let gallery = document.querySelector(".gallery");
 
-let i = 1;
-for (let li of container.querySelectorAll("li")) {
-  li.style.position = "relative";
-  i++;
-}
+const btn_prev = document.querySelector(".arrow .left"),
+  btn_next = document.querySelector(".arrow .right");
 
-function windowWidth() {
-  return document.body.clientWidth;
-}
-window.addEventListener("resize", function() {
-  windowWidth();
- if (windowWidth() > 768) {
-    width = 546;
-  } else if (windowWidth() <= 768 && windowWidth() > 320) {
-    width = 342;
-  } else if (windowWidth() <= 320) {
-    width = 320;
+let images = document.querySelectorAll(".photo img");
+let i = 0;
+
+//Слайдер фото
+
+btn_prev.addEventListener("click", function() {
+  images[i].className = "";
+  i = i - 1;
+  if (i < 0) {
+    i = 0;
   }
-  return width;
+  images[i].className = "shown";
 });
 
-container.querySelector(".left").addEventListener("click", scrollLeft);
-container.querySelector(".right").addEventListener("click", scrollRight);
+btn_next.addEventListener("click", function() {
+  images[i].className = "";
+  i = i + 1; //i++
+  if (i >= images.length) {
+    i = 1;
+  }
+  images[i].className = "shown";
+});
 
-function scrollLeft() {
-  position += width * count;
-  position = Math.min(position, 0);
-  console.log(position);
-  list.style.marginLeft = position + "px";
-}
-
-function scrollRight() {
-  position -= width * count;
-  position = Math.max(position, -width * (listElems.length - count));
-  console.log(position);
-  list.style.marginLeft = position + "px";
-}
+// Изменение фото на сайдере при переключении цвета
 
 btnColor1.addEventListener("click", selectColor1);
 btnColor2.addEventListener("click", selectColor2);

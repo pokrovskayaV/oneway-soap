@@ -10,7 +10,8 @@ let form = document.querySelector(".subscribe");
 let input = document.querySelector(".subscribe-form");
 
 let hamburgerBtn = document.querySelector(".hamburger");
-let mobileMenu = document.querySelector(".mobile-menu");
+let telephone = document.querySelector(".tel");
+let mobileMenu = document.querySelector(".nav-menu");
 
 btnMore.addEventListener("click", toggleHeightContainer);
 
@@ -56,5 +57,6 @@ hamburgerBtn.addEventListener("click", openMenu);
 function openMenu(event) {
   event.preventDefault();
   mobileMenu.classList.toggle("block-visible");
+  telephone.classList.toggle("block-visible");
   hamburgerBtn.classList.toggle("hamburger-close");
 }
